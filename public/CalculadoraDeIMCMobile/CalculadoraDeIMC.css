@@ -1,0 +1,106 @@
+body { background-color: black;
+}
+.logar { display: none;
+}
+.logar_ativo { background-color: azure;
+    width: 340px;
+    height: 700px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    box-shadow: 3px 3px 20px azure;
+}
+.home { width: 380px;
+    height: 430px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+.menu {
+    padding: 20px;
+}
+.bt_abrir { background-color: azure;
+    color: black;
+    width: 100%;
+    font-size: 30px;
+    border-radius: 5px;
+    outline: none;
+    padding: 25px;
+    border: 0px;
+    cursor: pointer;
+}
+.bt_fechar { background-color: transparent; 
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 25px;
+    height: 30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.fechar {
+    display: flex;
+    justify-content: end;
+}
+h1 { font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+}
+input { background-color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 5px;
+    border-bottom: solid orange;
+    outline: none;
+}
+button { background-color: black;
+    color: azure; 
+    width: 100%;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+nav { display: inline-flex;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    gap: 8px;
+}
+label{ font-size: 30px;
+}
+p { margin-top: 0px;
+    height: 30px;
+    width: 68px;
+    font-size: 30px;
+    overflow: hidden;
+}
+span { width: 100%;
+    height: 30px;
+    font-size: 30px;
+}
+@media screen and (max-width: 500px) {
+    .home {
+        width: 100%;
+    }
+    .logar_ativo {
+        width: 100%;
+    }
+    p{
+        width: 74px;
+    }
+}

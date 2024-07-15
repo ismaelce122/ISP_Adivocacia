@@ -1,0 +1,47 @@
+body { background-color: black;
+}
+form { background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 0px;
+    border-radius: 5px;
+    width: 500px;
+    box-shadow: 2px 2px 8px yellow;
+}
+input { width: 100%;
+    margin-bottom: 5px;
+    border: 0px;
+    outline: none;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 20px;
+}
+h1 { color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px yellow;
+}
+button { width: 100%;
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#endereço_bairro { margin-left: 5px;
+}
+.bairro { width: 65%;
+}
+.numero { width: 35%;
+}
+.box_endereço { display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+button:hover { background-color: rgb(10, 10, 10, 97%);
+}
+input:focus { background-color: blue;
+}

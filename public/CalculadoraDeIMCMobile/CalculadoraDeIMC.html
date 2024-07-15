@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA DE IMC</title>
+    <link rel="stylesheet" href="/CalculadoraDeIMCMobile/CalculadoraDeIMC.css">
+</head>
+<body>
+    <div class="home">
+        <h1>Calculadora</h1>
+        <h1>De</h1>
+        <h1>IMC</h1>
+        <button class="bt_abrir" type="button" onclick="abrir()">ABRIR</button>
+    </div>
+    <main class="menu">
+        <div class="logar" id="logar">
+            <form>
+                <div class="fechar">
+                    <button class="bt_fechar" type="button" onclick="fechar()">X</button>
+                </div>
+                <label for="peso">Peso:</label>
+                <input type="number" id="peso">
+                <label for="altura">Altura:</label>
+                <input type="number" id="altura">
+                <nav>
+                    <label>IMC:</label>
+                    <p id="imc"></p>
+                </nav>
+                <nav>
+                    <span id="resultado"></span>
+                </nav>
+                <button type="button" onclick="calcular()">CALCULAR</button>
+                <button type="button" onclick="remove()">LIMPAR</button>
+            </form>
+        </div>
+    </main>
+    <script src="/CalculadoraDeIMCMobile/CalculadoraDeIMC.js"></script>
+</body>
+</html>
