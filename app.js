@@ -44,6 +44,10 @@ app.get('/calculadora_de_imc', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', '/CalculadoraDeIMCMobile/CalculadoraDeIMC.html'))
 })
 
+app.get('/orion', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', '/Orion/orion.html'))
+})
+
 app.listen(Port, () => {
   console.log(`Servidor Conectado...`)
 })
